@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="contact-style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Crystals | Contact Us</title>
+</head>
+
+<body>
+
+  <!-- //////////////////////////////////////// NAVBAR ////////////////////////////////////// -->
+
+  <nav class="navbar justify-content-start">
+    <img src="bgimage.jpeg" alt="logo can't be load" class="img-fluid">
+
+    <ul class="nav">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <section>
+    <div class="container">
+      <div class="contact-info">
+        <div>
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span>
+                <img src="img/location.png" alt="Location Image Icon">
+              </span>
+              <span>
+                2913, BlueLake Road <br>
+                Los Angeles, CA <br>
+                90017
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <img src="img/email-open.png" alt="Mail Image Icon">
+              </span>
+              <span>
+                example@gmail.com
+              </span>
+            </li>
+
+            <li>
+              <span>
+                <img src="img/phone.png" alt="Call Image Icon">
+              </span>
+              <span>
+                310-386-1623
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="sci">
+          <li><a href="#"><img src="img/facebook-f-60.png"></a></li>
+          <li><a href="#"><img src="img/twitter.png"></a></li>
+          <li><a href="#"><img src="img/instagram-new.png"></a></li>
+          <li><a href="#"><img src="img/pinterest-p.png"></a></li>
+          <li><a href="#"><img src="img/linkedin.png"></a></li>
+        </ul>
+      </div>
+
+      <form action="sent-email.html" class="contactForm" onsubmit="return validateMyForm();">
+        <h2>Send a Message</h2>
+        <div class="formBox">
+          <div class="inputBox w50">
+            <input type="text" id="fname" required>
+            <span>First Name</span>
+          </div>
+
+          <div class="inputBox w50">
+            <input type="text" id="lname" required>
+            <span>Last Name</span>
+          </div>
+
+          <div class="inputBox w50">
+            <input type="text" id="mail" required>
+            <span>Email Address</span>
+          </div>
+
+          <div class="inputBox w50">
+            <input type="tel" id="number" required>
+            <span>Mobile Number</span>
+          </div>
+
+          <div class="inputBox w100">
+            <textarea id="message" required></textarea>
+            <span>Write your message here...</span>
+          </div>
+
+          <div class="inputBox w100">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- ///////////////////////////////////// FOOTER //////////////////////////////////////// -->
+
+  <div class="container-fluid footer text-white">
+    <div class="row">
+        <div class="col-sm-3 footer-column">
+            <h2>Useful Links</h2>
+            <hr>
+            <ul>
+                <li><a href="#" class="text-white">Home</a></li>
+                <li><a href="#" class="text-white">Menu</a></li>
+                <li><a href="#" class="text-white">Gallary</a></li>
+                <li><a href="#" class="text-white">Reviews</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-5 footer-column">
+            <h2>Address</h2>
+            <hr>
+            <h4 class="mg-1">Radhe by Paras <br> Catering Services</h4><br>
+            <p>Near Vimayojna Davakhana, Paldi Gam, <br> Ahmedabad 07</p>
+        </div>
+
+        <div class="col-sm-4 footer-column">
+            <h2 class="mg-1">Contact</h2>
+            <hr>
+            <ul>
+                <li class="mg-2">Phone : 9389273823</li>
+                <li class="cursor">www.radhecaterers.com</li>
+                <li class="cursor">radhecateresinfo@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="rights-reserved text-center">
+        <div class="social-media-icons">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        </div>
+        <br>
+        <span>@2020 All Rights Reserved</span>
+    </div>
+
+
+
+  <script src="contact-form-validate.js"></script>
+</body>
+
+</html>
